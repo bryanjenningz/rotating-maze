@@ -1,0 +1,36 @@
+.maze {
+  margin: 70px auto;
+  width: 300px;
+  transition: transform 2s linear;
+}
+
+.row {
+  display: block;
+  line-height: 10px;
+}
+
+.box {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+}
+
+.player {
+  background-color: blue;
+}
+
+.wall {
+  background-color: black;
+}
+
+.floor {
+  background-color: green;
+}
+
+.ending {
+  background-color: pink;
+}
+
+.center {
+  text-align: center;
+}
